@@ -1,0 +1,5 @@
+#!/bin/sh
+
+insmod /root/mali.ko
+insmod /root/nx_vpu.ko
+root/asb_main &
